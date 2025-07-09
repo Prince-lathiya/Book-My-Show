@@ -723,12 +723,12 @@ The path of prometheus.yml is; cd /etc/prometheus/ ----> ls -l ----> You can see
 
   - job_name: 'node_exporter'
     static_configs:
-      - targets: ['<MonitoringVMip>:9100']
+      - targets: ['<54.92.237.70>:9100']
 
   - job_name: 'jenkins'
     metrics_path: '/prometheus'
     static_configs:
-      - targets: ['<your-jenkins-ip>:<your-jenkins-port>']
+      - targets: ['<54.161.190.120>:<8080>']
 
 
 
